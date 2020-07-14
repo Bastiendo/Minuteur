@@ -1,0 +1,4 @@
+[*]     faire un décompte plus précis en jour:heure:minute:seconde....
+[]      supprimer, modifier les nouveaux timer
+[]      faire un peu de css
+[]		mettre un bouton plein écran

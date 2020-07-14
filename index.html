@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block_form">
+        <form class="form_number">
+            <div>
+                <label>Durée du minuteur</label>
+                <input type="number" name="input_number" required>
+                <button>Lancer</button>
+            </div>
+        </form>
+        <form class="form_time">
+            <div>
+                <label>Timer à partir d'une heure</label>
+                <input type="time" name="input_time" required>
+                <button>Lancer</button>
+            </div>
+        </form>
+        <!-- ajouter ses propres chrono -->
+        <h3>Ajouter vos propres temps </h3>
+        <form class="form_save">
+            <div>
+                <label>Nom du minuteur</label>
+                <input type="text" placeholder="oeuf au plat" name="timer_titre" required/>
+            </div>
+            <div>
+                <label>temps (seconde) </label>
+                <input type="number" value="30" name="timer_second"/>
+            </div>
+            <div>
+                <label>temps (minutes) </label>
+                <input type="number" value="1" name="timer_minute"/>
+            </div>
+            <button>Enregistrer</button>
+        </form>
+        <h4>Temps enregistrés </h4>
+        <ul class="timer_list">
+            
+        </ul>
+    </div>
+    
+    <div class="block_timer">
+        <div>
+            <h2 class="timer">0</h2>
+            <button class="btn_stop">Stoper la sonnerie</button>
+        </div>
+        
+    </div>
+    <script src="wizz.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
